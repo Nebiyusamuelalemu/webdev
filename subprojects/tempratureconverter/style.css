@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(95, 121, 121);
+    margin:none;
+}
+main{
+    margin: auto;
+    border: none;
+    background-color: rgb(84, 143, 145);
+    box-shadow: 2px 2px 2px rgb(13, 24, 24);
+    max-width: 350px;
+    min-height: 200px;
+    text-align: center;
+}
+
+h1{
+    color: black;
+}
+
+#selection{
+    color: rgb(54, 26, 26);
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#temp{
+    margin-bottom: 5px;
+    background-color: rgb(144, 144, 131);
+    border:none;
+}
+
+#unit{
+    background-color: rgb(31, 31, 129);
+    color: wheat;
+    box-shadow: 2px 2px 2px rgb(36, 69, 232);
+    border:none;
+    cursor: pointer;
+}
+
+button{
+    margin-top: 8px;
+    color: wheat;
+    background-color: rgb(171, 15, 15);
+    border: none;
+    box-shadow: 2px 2px 2px rgb(193, 44, 7);
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(231, 22, 22) ;
+}
+
+#results{
+    margin-left: 2px;
+    font-weight: bold;
+}

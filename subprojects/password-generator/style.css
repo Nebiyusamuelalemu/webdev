@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(36, 82, 32);
+
+}
+#cont{
+    border: none;
+    text-align: center;
+    max-width: fit-content;
+    margin: auto;
+    background-color: rgb(75, 175, 175);
+    box-shadow: 2px 2px 2px black, -2px -2px 2px white;
+    height: fit-content;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    font-style: italic;
+    font-weight: bold;
+}
+#indicator{
+    font-family: sans-serif, arial, helvetica;
+    font-size: 0.9em;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline rgb(94, 61, 61);
+}
+#charlen{
+    background-color: wheat;
+    border:none;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+#generate{
+    color: hsl(0, 57%, 97%);
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: green;
+    border:none;
+    box-shadow: 2px 2px 2px lightgreen;
+}
+#generate:hover{
+    cursor: pointer;
+    background-color: rgb(6, 198, 6);
+}
+#genereate:active{
+    background-color: rgb(14, 37, 14);
+}
+#password{
+    font-family: helvetica, sans-serif , serif;
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: bold;
+}

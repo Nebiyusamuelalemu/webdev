@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+}
+#mainapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(28, 65, 53);
+}
+#he1{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+#lbltxt{
+    color: rgb(0, 0, 0);
+}
+#layout{
+    display: inline-block;
+    justify-content: center;
+    padding: 14px;
+    box-shadow: 2px 2px 2px rgb(10, 37, 10), 2px 2px 2px rgb(64, 77, 64) inset;
+}
+button{
+    display: inline-block;
+    margin-right: 5px;
+}
+button:hover{
+    cursor:pointer;
+}
+#delete{
+    border: none;
+    background-color: rgb(96, 12, 12);
+    box-shadow: 2px 2px 2px brown;
+}
+#add{
+    border: none;
+    background-color: rgb(26, 26, 119);
+    margin-left: 65px;
+    box-shadow: 2px 2px 2px rgb(30, 70, 83);
+}
+#delete:hover{
+    background-color: rgb(131, 39, 39);
+}
+#add:hover{
+    background-color: rgb(49, 49, 152);
+}

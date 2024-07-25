@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temprature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <!--stop stop with the auto complete-->
+        <h1><u>Temprature Converter</u></h1>
+        <label for="temp" id="selection">Temprature:</label>
+        <input type="number" id="temp" value="0">
+        <select id="unit">
+            <option id="celicius" class="uni">°C</option>
+            <option id="farhanite" class="uni">°F</option>
+            <option id="kelvin" class="uni">K</option>
+        </select><br>
+        <button id="convert">Convert</button>
+        <pre id="results"> X°C 
+X°F</pre>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
